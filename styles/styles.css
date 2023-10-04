@@ -1,0 +1,166 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  padding: 15px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  width: 120px;
+  margin-top: 5px;
+}
+
+.top-container {
+  background-color: #1F2937;
+  color: white;
+  padding: 0 400px 100px 400px; /* top right bottom left */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.right-links {
+  display: flex;
+  gap: 25px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.top-image {
+  width: 450px;
+}
+
+.hero-main-text {
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+.hero-description, .right-links {
+  font-size: 18px;
+}
+
+.left-side {
+  max-width: 550px;
+}
+
+
+.sec-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.image {
+  border-radius: 5%;
+  height: 150px;
+}
+
+.illustrations {
+  display: flex;
+  gap: 50px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  max-width: 170px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image-title {
+  padding: 50px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 100px 540px 70px 540px;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: end;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  font-family: 'Roboto', arial, serif;
+}
+
+.author, .quote-text {
+  color: #1f2937;
+}
+
+.quote-author {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 400px 100px 400px;
+  border-radius: 10px;
+  height: 150px;
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+}
+
+.signup-container .text-container {
+  margin-left: 120px;
+}
+
+.call-to-action-main-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sign-up-button {
+  font-weight: bold;
+  font-size: 15px;
+  border: white solid 2px;
+  margin-right: 120px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #1F2937;
+  color: white;
+  font-style: italic;
+}
